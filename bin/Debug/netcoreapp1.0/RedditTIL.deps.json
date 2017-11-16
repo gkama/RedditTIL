@@ -1,0 +1,178 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "fb3b581e714f4aa220260b309f71ced677ae514a"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "RedditTIL/1.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.0.0",
+          "Amazon.Lambda.Serialization.Json": "1.1.0",
+          "AWSSDK.DynamoDBv2": "3.3.4.20"
+        },
+        "runtime": {
+          "RedditTIL.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.Json/1.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.0.0",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.Serialization.Json.dll": {}
+        }
+      },
+      "Amazon.Lambda.Tools/1.8.0": {
+        "dependencies": {
+          "AWSSDK.CloudFormation": "3.3.3.9",
+          "AWSSDK.IdentityManagement": "3.3.2.3",
+          "AWSSDK.Lambda": "3.3.2.9",
+          "AWSSDK.S3": "3.3.5.10",
+          "Newtonsoft.Json": "9.0.1",
+          "YamlDotNet.Signed": "4.2.1"
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/dotnet-lambda.dll": {}
+        }
+      },
+      "AWSSDK.CloudFormation/3.3.3.9": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.CloudFormation.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.19": {
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.3.4.20": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.DynamoDBv2.dll": {}
+        }
+      },
+      "AWSSDK.IdentityManagement/3.3.2.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.IdentityManagement.dll": {}
+        }
+      },
+      "AWSSDK.Lambda/3.3.2.9": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Lambda.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.5.10": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.S3.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "YamlDotNet.Signed/4.2.1": {
+        "runtime": {
+          "lib/netstandard1.3/YamlDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RedditTIL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+pBYGHaOaDAhu2j8BA5MhKLwxZM7lgmTSroGyCzEqWMBx+uc+QtpED2ShCAkKjKeedXH+LvJpQAUkEtW7rfcgQ=="
+    },
+    "Amazon.Lambda.Serialization.Json/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xRovd71Kji08OYj3PkHlNMA/RgRdyGj2TLRFt7R5JrzHkrrH8fV8DjdaCDR1SLf8p8LJF6fQjEHdW5vSDOArrw=="
+    },
+    "Amazon.Lambda.Tools/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0do4MYosbZ9ukSvBNoPTXLH0SG05LvCsMNa4xZWYqxFCzMy1vvlsgCYOmsuAFKa4fHZySKw8s5JoHw9M340Gsg=="
+    },
+    "AWSSDK.CloudFormation/3.3.3.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tPdKQYPZ+Ty2ESIYp061rXB9xggpsxmeCELzo0D6HW17AMYoPujGmiV3Z4X6EUnZFy45l9D7GpSsEBKXj89IbQ=="
+    },
+    "AWSSDK.Core/3.3.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zmXaVNKtbQ1RfwHawEkKM7nvkSeWjljwiBKtaUpf2Woni/vmYd5l0gY54dNVN7Z9IsCoxwitGcFfJYOtrE/upg=="
+    },
+    "AWSSDK.DynamoDBv2/3.3.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nr5crHqBe1txamJxWTwdrM0Fly1Mv6Kk8H5DeXEaA7HEzZW+IJ0VGy+oKJ9AE6d/mSAnqilILsr5xnj476JMZw=="
+    },
+    "AWSSDK.IdentityManagement/3.3.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fTPNQLSZjuEwK6jrTHD/WC4OtzzjXDRgY8s1a4TH/mSnNZ+3AXMcbYVnOIpXBltbFvHhA4eImLoyYp08V/jaeA=="
+    },
+    "AWSSDK.Lambda/3.3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jD0Opr1xwhPh7PmqoUWn/76J/jFmL1SJD387RIktzNg0eY89n2wBaTdHN76/LCAXpzvbVKozvtcD5dp6+Sy6Zw=="
+    },
+    "AWSSDK.S3/3.3.5.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RTJdrmOjD8eob+0envRxDAPUrzE+L5p/N07tyjU6pwSJEEhmWJ8vGfznBhHOHTGRXOzQjJmbjC/lAoJWI/Twsw=="
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    },
+    "YamlDotNet.Signed/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1vE+3OtCIvHPt//3GD8ZYpZtZ6xYt9hJCMrdmJzg9gMNbKxasvZyKgGVGB5HVBuzLT9dqZDkDaEbnYVfio+ONg=="
+    }
+  }
+}
