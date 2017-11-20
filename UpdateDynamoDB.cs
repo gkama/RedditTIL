@@ -35,10 +35,19 @@ namespace RedditTIL
             foreach (var children in this.Children)
             {
                 //Check if id exists
-                Document getItem = await reddit_til_ids_table.GetItemAsync(children.data.id);
+                bool itemExists = true;
+                try
+                {
+                    Document getItem = await reddit_til_ids_table.GetItemAsync(children.data.id);
+                    context.Logger.Log(string.Format("GetItem count: {0}", getItem.Count.ToString()));
+                }
+                catch (NullReferenceException)
+                {
+                    itemExists = false;
+                }
 
                 //If statement to check
-                if (getItem.Count == 0)
+                if (!itemExists)
                 {
                     context.Logger.Log(string.Format("At Child: {0}", children.data.id));
                     var child = new Document();

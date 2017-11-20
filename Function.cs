@@ -24,7 +24,10 @@ namespace RedditTIL
         {
             TILs til = new TILs();
             List<TILs.children> children = await til.GetTILs(context);
-            //string toReturn = JsonConvert.SerializeObject(children, Formatting.Indented);
+            string serializedObj = JsonConvert.SerializeObject(children, Formatting.Indented);
+
+            //Log
+            context.Logger.Log(serializedObj);
 
             //Update DynamoDB with newest TILs
             string dynamodb_table = "reddit_til";
