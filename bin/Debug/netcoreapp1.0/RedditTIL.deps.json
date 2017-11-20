@@ -8,9 +8,10 @@
     ".NETCoreApp,Version=v1.0": {
       "RedditTIL/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.3.4.20",
           "Amazon.Lambda.Core": "1.0.0",
           "Amazon.Lambda.Serialization.Json": "1.1.0",
-          "AWSSDK.DynamoDBv2": "3.3.4.20"
+          "Amazon.Lambda.Tools": "1.8.0"
         },
         "runtime": {
           "RedditTIL.dll": {}
@@ -117,62 +118,86 @@
     "Amazon.Lambda.Core/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+pBYGHaOaDAhu2j8BA5MhKLwxZM7lgmTSroGyCzEqWMBx+uc+QtpED2ShCAkKjKeedXH+LvJpQAUkEtW7rfcgQ=="
+      "sha512": "sha512-+pBYGHaOaDAhu2j8BA5MhKLwxZM7lgmTSroGyCzEqWMBx+uc+QtpED2ShCAkKjKeedXH+LvJpQAUkEtW7rfcgQ==",
+      "path": "amazon.lambda.core/1.0.0",
+      "hashPath": "amazon.lambda.core.1.0.0.nupkg.sha512"
     },
     "Amazon.Lambda.Serialization.Json/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xRovd71Kji08OYj3PkHlNMA/RgRdyGj2TLRFt7R5JrzHkrrH8fV8DjdaCDR1SLf8p8LJF6fQjEHdW5vSDOArrw=="
+      "sha512": "sha512-xRovd71Kji08OYj3PkHlNMA/RgRdyGj2TLRFt7R5JrzHkrrH8fV8DjdaCDR1SLf8p8LJF6fQjEHdW5vSDOArrw==",
+      "path": "amazon.lambda.serialization.json/1.1.0",
+      "hashPath": "amazon.lambda.serialization.json.1.1.0.nupkg.sha512"
     },
     "Amazon.Lambda.Tools/1.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0do4MYosbZ9ukSvBNoPTXLH0SG05LvCsMNa4xZWYqxFCzMy1vvlsgCYOmsuAFKa4fHZySKw8s5JoHw9M340Gsg=="
+      "sha512": "sha512-0do4MYosbZ9ukSvBNoPTXLH0SG05LvCsMNa4xZWYqxFCzMy1vvlsgCYOmsuAFKa4fHZySKw8s5JoHw9M340Gsg==",
+      "path": "amazon.lambda.tools/1.8.0",
+      "hashPath": "amazon.lambda.tools.1.8.0.nupkg.sha512"
     },
     "AWSSDK.CloudFormation/3.3.3.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tPdKQYPZ+Ty2ESIYp061rXB9xggpsxmeCELzo0D6HW17AMYoPujGmiV3Z4X6EUnZFy45l9D7GpSsEBKXj89IbQ=="
+      "sha512": "sha512-tPdKQYPZ+Ty2ESIYp061rXB9xggpsxmeCELzo0D6HW17AMYoPujGmiV3Z4X6EUnZFy45l9D7GpSsEBKXj89IbQ==",
+      "path": "awssdk.cloudformation/3.3.3.9",
+      "hashPath": "awssdk.cloudformation.3.3.3.9.nupkg.sha512"
     },
     "AWSSDK.Core/3.3.19": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zmXaVNKtbQ1RfwHawEkKM7nvkSeWjljwiBKtaUpf2Woni/vmYd5l0gY54dNVN7Z9IsCoxwitGcFfJYOtrE/upg=="
+      "sha512": "sha512-zmXaVNKtbQ1RfwHawEkKM7nvkSeWjljwiBKtaUpf2Woni/vmYd5l0gY54dNVN7Z9IsCoxwitGcFfJYOtrE/upg==",
+      "path": "awssdk.core/3.3.19",
+      "hashPath": "awssdk.core.3.3.19.nupkg.sha512"
     },
     "AWSSDK.DynamoDBv2/3.3.4.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nr5crHqBe1txamJxWTwdrM0Fly1Mv6Kk8H5DeXEaA7HEzZW+IJ0VGy+oKJ9AE6d/mSAnqilILsr5xnj476JMZw=="
+      "sha512": "sha512-Nr5crHqBe1txamJxWTwdrM0Fly1Mv6Kk8H5DeXEaA7HEzZW+IJ0VGy+oKJ9AE6d/mSAnqilILsr5xnj476JMZw==",
+      "path": "awssdk.dynamodbv2/3.3.4.20",
+      "hashPath": "awssdk.dynamodbv2.3.3.4.20.nupkg.sha512"
     },
     "AWSSDK.IdentityManagement/3.3.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fTPNQLSZjuEwK6jrTHD/WC4OtzzjXDRgY8s1a4TH/mSnNZ+3AXMcbYVnOIpXBltbFvHhA4eImLoyYp08V/jaeA=="
+      "sha512": "sha512-fTPNQLSZjuEwK6jrTHD/WC4OtzzjXDRgY8s1a4TH/mSnNZ+3AXMcbYVnOIpXBltbFvHhA4eImLoyYp08V/jaeA==",
+      "path": "awssdk.identitymanagement/3.3.2.3",
+      "hashPath": "awssdk.identitymanagement.3.3.2.3.nupkg.sha512"
     },
     "AWSSDK.Lambda/3.3.2.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jD0Opr1xwhPh7PmqoUWn/76J/jFmL1SJD387RIktzNg0eY89n2wBaTdHN76/LCAXpzvbVKozvtcD5dp6+Sy6Zw=="
+      "sha512": "sha512-jD0Opr1xwhPh7PmqoUWn/76J/jFmL1SJD387RIktzNg0eY89n2wBaTdHN76/LCAXpzvbVKozvtcD5dp6+Sy6Zw==",
+      "path": "awssdk.lambda/3.3.2.9",
+      "hashPath": "awssdk.lambda.3.3.2.9.nupkg.sha512"
     },
     "AWSSDK.S3/3.3.5.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RTJdrmOjD8eob+0envRxDAPUrzE+L5p/N07tyjU6pwSJEEhmWJ8vGfznBhHOHTGRXOzQjJmbjC/lAoJWI/Twsw=="
+      "sha512": "sha512-RTJdrmOjD8eob+0envRxDAPUrzE+L5p/N07tyjU6pwSJEEhmWJ8vGfznBhHOHTGRXOzQjJmbjC/lAoJWI/Twsw==",
+      "path": "awssdk.s3/3.3.5.10",
+      "hashPath": "awssdk.s3.3.3.5.10.nupkg.sha512"
     },
     "Newtonsoft.Json/9.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
     },
     "YamlDotNet.Signed/4.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1vE+3OtCIvHPt//3GD8ZYpZtZ6xYt9hJCMrdmJzg9gMNbKxasvZyKgGVGB5HVBuzLT9dqZDkDaEbnYVfio+ONg=="
+      "sha512": "sha512-1vE+3OtCIvHPt//3GD8ZYpZtZ6xYt9hJCMrdmJzg9gMNbKxasvZyKgGVGB5HVBuzLT9dqZDkDaEbnYVfio+ONg==",
+      "path": "yamldotnet.signed/4.2.1",
+      "hashPath": "yamldotnet.signed.4.2.1.nupkg.sha512"
     }
   }
 }

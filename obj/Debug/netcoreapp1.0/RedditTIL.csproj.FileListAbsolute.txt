@@ -1,0 +1,9 @@
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\bin\Debug\netcoreapp1.0\RedditTIL.deps.json
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\bin\Debug\netcoreapp1.0\RedditTIL.dll
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\bin\Debug\netcoreapp1.0\RedditTIL.pdb
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\obj\Debug\netcoreapp1.0\RedditTIL.csprojResolveAssemblyReference.cache
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\obj\Debug\netcoreapp1.0\RedditTIL.csproj.CoreCompileInputs.cache
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\obj\Debug\netcoreapp1.0\RedditTIL.AssemblyInfoInputs.cache
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\obj\Debug\netcoreapp1.0\RedditTIL.AssemblyInfo.cs
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\obj\Debug\netcoreapp1.0\RedditTIL.dll
+C:\Users\gkama\Documents\Visual Studio 2017\Projects\RedditTIL\obj\Debug\netcoreapp1.0\RedditTIL.pdb
