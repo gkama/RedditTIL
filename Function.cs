@@ -31,11 +31,11 @@ namespace RedditTIL
 
             //Update DynamoDB with newest TILs
             string dynamodb_table = "reddit_til";
-            string id_table = "reddit_til_ids";
-            UpdateDynamoDB db = new UpdateDynamoDB(dynamodb_table, id_table, children);
+            UpdateDynamoDB db = new UpdateDynamoDB(dynamodb_table, children);
             string toReturn = await db.Update(context);
 
             //Log
+            //success or not
             context.Logger.Log(toReturn);
 
             //Return Lambda
