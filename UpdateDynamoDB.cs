@@ -46,10 +46,9 @@ namespace RedditTIL
                     itemExists = false;
                 }
 
-                //If statement to check
+                //If statement to check - true when child does not exist
                 if (!itemExists)
                 {
-                    context.Logger.Log(string.Format("At Child: {0}", children.data.id));
                     var child = new Document();
                     child["id"] = children.data.id;
                     child["score"] = children.data.score;
@@ -82,7 +81,7 @@ namespace RedditTIL
                 }
                 else
                 {
-                    context.Logger.LogLine(string.Format("ID: {0} already exists in table: {1}", children.data.id, this.table));
+                    context.Logger.LogLine(string.Format("Item: {0} already exists in table: {1}", children.data.id, this.table));
                 }
             }
             return "success";
